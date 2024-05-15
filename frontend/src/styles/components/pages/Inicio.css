@@ -1,0 +1,24 @@
+.imagen-hero {
+    background-image: url(../../../../public/images/intro.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.texto-hero {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -5%);
+    color: white;
+}
+
+.contenido {
+    padding: 50px;
+    height: 800px;
+    background-color: white;
+
+}

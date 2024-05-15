@@ -5,8 +5,9 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = (props) => {
     return (
-        <nav>
-            <div>
+        <nav className="navbar">
+            <h1 className="logo">Pulso de Vida</h1>
+            <div className="nav1">
                 <ul>
                     <li> <NavLink to='/' className={({ isActive }) => isActive ? "activo" : undefined}>Inicio</NavLink> </li>
                     <li> <NavLink to='/eventos' className={({ isActive }) => isActive ? "activo" : undefined}>Eventos</NavLink> </li>

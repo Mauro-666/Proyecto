@@ -1,10 +1,9 @@
 import React from "react";
 
 const Header = (props) => {
-    return(
+    return (
         <header>
             <div className="holder">
-                <h1>Proyecto X</h1>
             </div>
         </header>
     )
