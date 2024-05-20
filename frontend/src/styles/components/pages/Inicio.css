@@ -1,8 +1,8 @@
+/*NAV*/
 .imagen-hero {
     background-image: url(../../../../public/images/intro.jpg);
-    height: 500px;
+    height: 400px;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     align-items: center;

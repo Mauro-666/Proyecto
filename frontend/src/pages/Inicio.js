@@ -6,7 +6,7 @@ const InicioPage = (props) => {
         <div className="contenedor">
             <div className="imagen-hero">
                 <div className="texto-hero">
-                    <h1> Marcelo Rodriguez Arias </h1>
+                    <h1>Marcelo Rodriguez Arias</h1>
                     <h3> Terapeuta de sonido </h3>
                 </div>
             </div>
