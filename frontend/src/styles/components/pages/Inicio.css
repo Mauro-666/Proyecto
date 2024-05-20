@@ -1,5 +1,10 @@
 /*IMAGEN PRINCIPAL*/
+.div {
+    background-color: #fEfdf8;
+}
+
 .imagen-hero {
+   
     background-image: url(/src/img/image-principal.JPG);
     height: 400px;
     background-position: center -40px;
@@ -13,11 +18,11 @@
     top: 50%;
     right: -10%;
     transform: translate(-50%, -40%);
-    color: #FEFDF8;
+    color: #fEfdf8;
 }
 
 .boton {
-    background-color: #FEFDF8;
+    background-color: #fEfdf8;
     border: none;
     padding: 4px 76px;
     display: inline-block;
@@ -86,7 +91,6 @@
     position: relative;
 }
 
-/*TEXTOS DE LAS CARTAS*/
 .texto-card {
     display: flex;
     flex-direction: column;
@@ -95,20 +99,30 @@
     justify-content: center;
 }
 
-.contenido2 {
+/*TEXTOS DE LAS CARTAS*/
+
+
+.contenido2-m {
     margin-top: 50px;
     display: flex;
 }
 
-.card5 {
-    padding: 5px;
+.card5-m {
+    width: 950px;
+    height: 350px;
+    margin: 10px;
     display: flex;
     align-items: end;
-    background-image: url(../../../../public/images/card4.jpg);
-    width: 600px;
-    height: 450px;
+    background-image: url(/src/img/jueves.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+}
+
+.texto-card-m {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    justify-content: center;
 }

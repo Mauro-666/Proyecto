@@ -1,6 +1,12 @@
+/**/
+.logo{
+width: 12%;
+
+}
 nav {
+    width: 100%;
     padding-left: 20px;
-    height: 50px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +14,7 @@ nav {
 }
 
 .navbar {
-    background-color: whitesmoke;
+    background-color: #FEFDF8;
 }
 
 .nav1 {
@@ -18,9 +24,9 @@ nav {
 }
 
 nav ul {
-    list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
+    list-style: none;
     display: flex;
     justify-content: right;
 }
@@ -30,27 +36,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #343434;
     text-decoration: none;
     padding: 3px 6px;
     display: block;
     text-align: center;
 }
 
-nav ul li a:hover {
-    color: red;
-    text-decoration: underline overline
-}
-
-;
-
-
-nav ul li a.activo {
-    background-color: #4c76a5;
-}
-
 .nav1 {
-    height: 10px;
+    height: 20px;
     text-align: center;
     align-items: center;
 }
