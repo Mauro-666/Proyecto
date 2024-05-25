@@ -14,11 +14,11 @@ const InicioPage = (props) => {
                 </div>
             </div>
             <div className="contenido">
-                <h1>Agendemos tu turno</h1>
+                <h1 className="titulo-turno">Agendemos tu turno</h1>
                 <div className="cards">
-                    <div className="card1">
-                        <h3>Reiki</h3>
-                        <p>Descripción del servicio</p>
+                    <div className="texto-card">
+                        <h3>Terapia de sonido</h3>
+                        <p>La vibración ejerce un poder armonizador de aquellas frecuencias inarmónicas que causan enfermedades, malestares, desequilibrios y bloqueos en nuestro campo energético, físico, mental y espiritual. El poder sanador se encuentra en nuestro interior.</p>
                     </div>
 
                     <div className="card2">

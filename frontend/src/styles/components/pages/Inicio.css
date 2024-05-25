@@ -35,6 +35,14 @@
     background-color: #677296;
 }
 
+.titulo-turno{
+    color: #677296;
+ text-align: center;
+ margin: 30px 160px -20px 0px;
+}
+
+
+
 /*CARTAS DE TURNOS*/
 .cards {
     display: flex;
