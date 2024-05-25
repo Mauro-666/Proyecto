@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/components/pages/Inicio.css';
 
+
 const InicioPage = (props) => {
     return (
         <div className="contenedor">
@@ -13,11 +14,11 @@ const InicioPage = (props) => {
                 </div>
             </div>
             <div className="contenido">
-                <h1>Agendemos tu turno</h1>
+                <h1 className="titulo-turno">Agendemos tu turno</h1>
                 <div className="cards">
-                    <div className="card1">
-                        <h3>Reiki</h3>
-                        <p>Descripción del servicio</p>
+                    <div className="texto-card">
+                        <h3>Terapia de sonido</h3>
+                        <p>La vibración ejerce un poder armonizador de aquellas frecuencias inarmónicas que causan enfermedades, malestares, desequilibrios y bloqueos en nuestro campo energético, físico, mental y espiritual. El poder sanador se encuentra en nuestro interior.</p>
                     </div>
 
                     <div className="card2">
@@ -40,12 +41,14 @@ const InicioPage = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="contenido2">
-                <div className="card5"></div>
-                <div className="texto-card">
-                    <h1> MIERCOLES </h1>
-                    <h3> Meditacion y yoga </h3>
-                    <p> jgjfkñ n jkajdñ asjka ñsldjf añsdjf añsjd falksjd fñaksjdñf asldk fjasdfhas dgña </p>
+            <div className="contenido2-m">
+                <div className="card5-m"></div>
+                <div className="texto-card-m">
+                    <h1>Jueves</h1>
+                    <h3>Sound Healing y Meditación</h3>
+                    <p>Sumergite en la vibración y resonancia de los instrumentos musicales seleccionados cuidadosamente.
+                        Este baño de sonido no solo será una experiencia sensorialmente placentera, sino que
+                        también promoverá la relajación profunda, la sanación y la liberación de tensiones acumuladas.Un jueves al mes, de 10hs a 11hs</p>
                 </div>
             </div>
         </div>
