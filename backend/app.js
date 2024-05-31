@@ -4,6 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+require('dotenv').config();
+var pool = require('./models/db');
+
 var seccion = require('express-session');
 
 var indexRouter = require('./routes/index');
@@ -17,11 +20,14 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+
 
 app.use(seccion({
   secret: 'tractor73metal666pesado',
@@ -29,8 +35,8 @@ app.use(seccion({
   saveUninitialized: true
 }));
 
-// app.use('/', indexRouter);
-// app.use('/users', usersRouter);
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
 
 app.get('/', function (req, res, next) {
   var conocido = Boolean(req.session.nombre);

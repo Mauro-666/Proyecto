@@ -1,0 +1,47 @@
+.seccion-eventos {
+    padding: 10px;
+    background-color: #fefdf8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #677296;
+}
+
+.seccion-eventos .titulo {
+    margin-left: 70px;
+    justify-items: center;
+    align-content: center;
+    height: 50px;
+}
+
+/* EVENTOS */
+.card-eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    margin: 10px;
+    /* background-color: azure;
+    border: 3px solid red; */
+    width: 80%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card img {
+    width: 500px;
+    height: 300px;
+}
+
+/* VIDEOS O IMAGENES */
+.media {
+    background-color: aquamarine;
+    width: 700px;
+    min-height: 400px;
+    text-align: center;
+    justify-items: center;
+}

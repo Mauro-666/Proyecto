@@ -26,7 +26,7 @@ const Footer = (props) => {
                     <i className="bi bi-envelope-at-fill"></i>
                 </a>
             </div>
-            <div className="derechos-de-autor">Derechos Reservdos (2023) &#169;</div>
+            <div className="derechos-de-autor">Derechos Reservados (2024) &#169;</div>
         </footer>
     )
 };

@@ -13,10 +13,10 @@ import ContactoPage from './pages/Contacto';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
 
       <BrowserRouter>
-        <Nav/>
+        <Nav />
         <Routes>
           <Route path='/' element={<InicioPage />} />
           <Route path='eventos' element={<EventosPage />} />
@@ -24,8 +24,8 @@ function App() {
           <Route path='contacto' element={<ContactoPage />} />
         </Routes>
       </BrowserRouter>
-      
-      <Footer/>
+
+      <Footer />
     </div>
   );
 }
